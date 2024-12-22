@@ -1,16 +1,22 @@
 
-# Image Assignment
+## Tech Stack
 
-This project is a simple image processing application that uses the following stack:
+- Next.js
+- Tailwind CSS
+- MongoDB
+- Mongoose
+- react-canvas-draw
+-shadcn
 
-* Next.js for the frontend
-* MongoDB for the database
-* Mongoose for interacting with the database
-* Tailwind CSS for styling
-* react-canvas-draw
-how to run the code
-a)clone the project
-b)write in your vs-code terminal cd: npm i to install all packages
-c)than npm run dev
 
-/******  761ae8aa-e166-416e-a434-f0b30029bb68  *******/
+## How to Run
+
+1. Clone the repository
+2. Run `npm install` to install dependencies
+3. Run `npm run dev` to start the development server
+4.mongodb env file 
+5.MONGODB_URI=mongodb+srv://khanirshad13113201:TweetXProject@cluster0.7kvr0bd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+you can use mine just place this in .env file and env file will be in globle folder not in app folder
+
+
