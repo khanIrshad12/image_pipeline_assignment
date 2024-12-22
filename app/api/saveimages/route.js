@@ -57,6 +57,7 @@ export async function POST(req) {
     console.log('Error saving images:', error)
     return NextResponse.json(
       { success: false, error: 'Failed to save images' },
+      {error:error},
       { status: 500 }
     )
   }
