@@ -42,7 +42,7 @@ export async function POST(req) {
         filename: maskName,
         uploadedAt: new Date()
       },
-      status: 'pending',
+      status: 'Processed',
       createdAt: new Date()
     })
 
@@ -53,8 +53,8 @@ export async function POST(req) {
       maskPath: `/uploads/${maskName}`
     })
     
-  } catch (error) {
-    console.error('Error saving images:', error)
+  } catch (error) { 
+    console.log('Error saving images:', error)
     return NextResponse.json(
       { success: false, error: 'Failed to save images' },
       { status: 500 }
